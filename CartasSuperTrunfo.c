@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
@@ -6,7 +6,6 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
@@ -18,5 +17,63 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+#include <stdio.h>
+int main(){
+   
+    // CARTA 1
+    char estado [5];
+    char carta [5];
+    char cidade [25];
+    int populaçao, pontos_turisticos;
+    float PIB, area;
+
+    // CARTA 2
+    
+    char estado2 [5];
+    char carta2 [5];
+    char cidade2 [25];
+    int populaçao2, pontos_turisticos2;
+    float PIB2, area2;
+
+    printf ("Digite o Estado: \n");
+    scanf ("%s", &estado);
+
+    printf("Digite o Código da Carta: \n");
+    scanf ("%s", &carta);
+
+    printf("Digite a Cidade:\n");
+    scanf ("%s", &cidade);
+
+    printf("Digite a População:\n");
+    scanf("%f", &populaçao);
+
+    printf("Digite a Área em km²:\n");
+    scanf("%f", &PIB);
+
+    printf("Digite a quantidade de Pontos Turísticos:\n");
+    scanf("%f", &pontos_turisticos);
+
+    // CARTA 2
+
+    printf ("Digite o Estado: \n");
+    scanf ("%s", &estado2);
+
+    printf("Digite o Código da Carta: \n");
+    scanf ("%s", &carta2);
+
+    printf("Digite a Cidade:\n");
+    scanf ("%s", &cidade2);
+
+    printf("Digite a População:\n");
+    scanf("%f", &populaçao2);
+
+    printf("Digite a Área em km²:\n");
+    scanf("%f", &PIB2);
+
+    printf("Digite a quantidade de Pontos Turísticos:\n");
+    scanf("%f", &pontos_turisticos2);
+
     return 0;
+
+
 }
