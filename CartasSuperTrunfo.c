@@ -49,6 +49,9 @@ int main(){
     scanf("%d", &populaçao);
 
     printf("Digite a Área em km²:\n");
+    scanf("%f", &area);
+
+    printf("Digite o PIB:\n");
     scanf("%f", &PIB);
 
     printf("Digite a quantidade de Pontos Turísticos:\n");
@@ -69,6 +72,9 @@ int main(){
     scanf("%d", &populaçao2);
 
     printf("Digite a Área em km²:\n");
+    scanf("%f", &area2);
+
+     printf("Digite o PIB:\n");
     scanf("%f", &PIB2);
 
     printf("Digite a quantidade de Pontos Turísticos:\n");
