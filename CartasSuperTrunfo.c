@@ -18,64 +18,62 @@
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
 #include <stdio.h>
+
 int main(){
    
     // CARTA 1
-
-    char estado [5];
-    char carta [5];
+    char estado;
+    char carta [4];
     char cidade [25];
     int populaçao, pontos_turisticos;
     float PIB, area;
 
     // CARTA 2
     
-    char estado2 [5];
-    char carta2 [5];
+    char estado2;
+    char carta2 [4];
     char cidade2 [25];
     int populaçao2, pontos_turisticos2;
     float PIB2, area2;
 
     printf ("Digite o Estado: \n");
-    scanf ("%s", &estado);
+    scanf (" %c", &estado);
 
     printf("Digite o Código da Carta: \n");
-    scanf ("%s", &carta);
+    scanf ("%s", carta);
 
     printf("Digite a Cidade:\n");
-    scanf ("%s", &cidade);
+    scanf ("%s", cidade);
 
     printf("Digite a População:\n");
-    scanf("%f", &populaçao);
+    scanf("%d", &populaçao);
 
     printf("Digite a Área em km²:\n");
     scanf("%f", &PIB);
 
     printf("Digite a quantidade de Pontos Turísticos:\n");
-    scanf("%f", &pontos_turisticos);
+    scanf("%d", &pontos_turisticos);
 
     // CARTA 2
 
     printf ("Digite o Estado: \n");
-    scanf ("%s", &estado2);
+    scanf (" %c", &estado2);
 
     printf("Digite o Código da Carta: \n");
-    scanf ("%s", &carta2);
+    scanf ("%s", carta2);
 
     printf("Digite a Cidade:\n");
-    scanf ("%s", &cidade2);
+    scanf ("%s", cidade2);
 
     printf("Digite a População:\n");
-    scanf("%f", &populaçao2);
+    scanf("%d", &populaçao2);
 
     printf("Digite a Área em km²:\n");
     scanf("%f", &PIB2);
 
     printf("Digite a quantidade de Pontos Turísticos:\n");
-    scanf("%f", &pontos_turisticos2);
+    scanf("%d", &pontos_turisticos2);
 
-    
     return 0;
-
-
+    
 }
