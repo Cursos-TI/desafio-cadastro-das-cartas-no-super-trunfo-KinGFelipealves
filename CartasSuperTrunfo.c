@@ -60,16 +60,10 @@ int main(){
     printf("Digite a quantidade de Pontos Turísticos:\n");
     scanf("%d", &pontos_turisticos);
 
-    printf("Digite a Densidade Populacional:\n");
-    scanf("%f", &densidade_populacional);
-    
-    printf("Digite o PIB per Capita:\n");
-    scanf("%f", &PIB_per_capita);
-
     densidade_populacional = populaçao / area;
     printf("Densidade populacional: %.2f hab/km²\n", densidade_populacional );
     
-    PIB_per_capita = PIB * 1000000000 / populaçao;
+    PIB_per_capita = PIB * 1e9 / populaçao;
     printf("Pib Per Capita: %.2f reais\n", PIB_per_capita );
 
 
@@ -97,16 +91,11 @@ int main(){
     printf("Digite a quantidade de Pontos Turísticos:\n");
     scanf("%d", &pontos_turisticos2);
 
-    printf("Digite a Densidade Populacional:\n");
-    scanf("%f", &densidade_populacional2);
-
-    printf("Digite o PIB per Capita:\n");
-    scanf("%f", &PIB_per_capita2);
     
     densidade_populacional2 = populaçao2 / area2;
     printf("Densidade populacional: %.2f Hab/km²\n", densidade_populacional2 );
     
-    PIB_per_capita2 = PIB2 * 1000000000 / populaçao2;
+    PIB_per_capita2 = PIB2 * 1e9 / populaçao2;
     printf("Pib Per Capita: %.2f reais\n", PIB_per_capita2  );
 
 
